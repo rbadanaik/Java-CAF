@@ -1,8 +1,6 @@
 package com.refresher;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
@@ -13,6 +11,6 @@ class AppTest {
      */
     @Test
     void testApp() {
-        assertEquals(1, 1);
+        // assertEquals(1, 1);
     }
 }
