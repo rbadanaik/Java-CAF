@@ -29,7 +29,7 @@
          <groupId>io.cucumber</groupId>
          <artifactId>cucumber-testng</artifactId>
          <version>${cucumber.version}</version>
-         <scope>test</scope>
+         <!-- <scope>test</scope> -->
      </dependency>
         
       <!-- Selenium -->
@@ -51,8 +51,16 @@
           <groupId>org.testng</groupId>
           <artifactId>testng</artifactId>
           <version>${testng.version}</version>
-          <scope>test</scope>
+          <!-- <scope>test</scope> -->
       </dependency>
+
+      <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<!-- <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.12.0</version>
+</dependency> -->
+
  
       <!-- Apache Common -->
       <dependency>
